@@ -1,0 +1,23 @@
+name: Drupal
+type: theme
+base theme: false
+description: 'Drupal Test'
+packaage: Core
+version: VERSION
+core_version_requirement: ^9 || ^10
+libraries-override:
+  - system/base: false 
+  - bartik/classy.base: false
+  - bartik/classy.messages: false
+  - core/normalize: false
+  - bartik/global-styling: false
+  - views/views.module: false
+
+
+libraries:
+  - drupaltest/global-styling
+
+
+
+regions:
+  tab_slider: 'Slider 1'

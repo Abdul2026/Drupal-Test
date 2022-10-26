@@ -1,0 +1,22 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+  
+    theme:
+      assets/vendor/bootstrap/css/bootstrap.min.css: {}
+      assets/css/font-awesome.min.css: {}
+      assets/css/owl.carousel.min.css: {}
+      assets/css/main.css: {}
+  js:
+
+    assets/js/jquery.min.js: {}
+    assets/vendor/bootstrap/js/bootstrap.bundle.min.js: {}
+    assets/js/owl.carousel.min.js: {}
+    assets/js/main.js: {}
+
+
+
+
